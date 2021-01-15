@@ -33,10 +33,10 @@ public class CheckoutOnePage {
     }
 
     public void continueTo(String firstName, String lastName, String postalCode) {
-        WebElement contunieButton = driver.findElement(By.xpath("//*[contains(@class,'btn_primary cart_button')]"));
+        WebElement continueButton = driver.findElement(By.xpath("//*[contains(@class,'btn_primary cart_button')]"));
         setFirstName(firstName);
         setLastName(lastName);
         setPostalCode(postalCode);
-        contunieButton.click();
+        continueButton.click();
     }
 }
